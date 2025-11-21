@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Arajit — Futuristic Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <img src="/ARAJIT/Images/Logo.png" alt="ArtBoard Studio" class="logo">
+      <nav class="nav">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1 class="hero-title">Arajit <span class="accent">— Futuristic Graphic Designer</span></h1>
+          <p class="hero-sub">I craft posters, logos, branding systems, thumbnails and motion edits. <strong>10+ years</strong> experience · <strong>100+</strong> completed projects · satisfied clients.</p>
+
+          <ul class="skills">
+            <li>Poster Design</li>
+            <li>Logo & Branding</li>
+            <li>Video Editing</li>
+            <li>Social Thumbnails</li>
+          </ul>
+
+          <div class="hero-cta">
+            <a class="btn primary" href="#contact">Hire Me</a>
+            <a class="btn ghost" href="#work">See Work</a>
+          </div>
+
+          <div class="counts">
+            <div class="count">
+              <div class="num">100+</div>
+              <div class="label">Projects</div>
+            </div>
+            <div class="count">
+              <div class="num">10+</div>
+              <div class="label">Years XP</div>
+            </div>
+            <div class="count">
+              <div class="num">All</div>
+              <div class="label">Clients satisfied</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="portrait-frame">
+            <!-- main portrait (uses conversation upload path) -->
+            <img src="/ARAJIT/Images/person.png" alt="Arajit portrait" class="portrait">
+            <!-- circular avatar (optional) -->
+            <img src="/ARAJIT/Images/User.png" alt="avatar" class="avatar">
+            <!-- small mobile mockup -->
+            <img src="/ARAJIT/Images/mobile.png" alt="mobile" class="mockup">
+          </div>
+
+          <!-- glowing badges -->
+          <div class="badge ai">AI</div>
+          <div class="badge ps">PS</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT I OFFER -->
+    <section id="work" class="section dark">
+      <div class="container">
+        <h2 class="section-title">What I Offer</h2>
+        <div class="grid cards">
+          <article class="card">
+            <h3>Poster Design</h3>
+            <p>High-impact posters for print & social that stop scrollers.</p>
+          </article>
+          <article class="card">
+            <h3>Logo & Branding</h3>
+            <p>Memorable marks and full identity systems for brand clarity.</p>
+          </article>
+          <article class="card">
+            <h3>Video Editing</h3>
+            <p>Promo clips, thumbnails and animated social videos.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div class="about-left">
+          <h2>About Me</h2>
+          <p>Hi — I’m <strong>Arajit</strong>. I specialize in poster design, logos, branding, and social thumbnails. I use Canva, Adobe Photoshop, Illustrator and After Effects to craft strong visuals and motion assets that convert.</p>
+          <ul class="tools">
+            <li>Canva</li>
+            <li>Photoshop</li>
+            <li>Illustrator</li>
+            <li>After Effects</li>
+          </ul>
+        </div>
+        <div class="about-right">
+          <div class="mini-card">
+            <img src="/ARAJIT/Images/mobile.png" alt="logo small" class="mini-logo">
+            <div>
+              <h4>ArtBoard Studio</h4>
+              <p>Logo design · Poster design · Video editing</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section dark contact-section">
+      <div class="container">
+        <h2>Work With Me</h2>
+        <div class="contact-grid">
+          <form id="contactForm" class="contact-form">
+            <input name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" rows="5" placeholder="Project brief (what you need)" required></textarea>
+            <div class="form-row">
+              <button type="submit" class="btn primary">Send Message</button>
+              <span id="formStatus" class="form-status" aria-live="polite"></span>
+            </div>
+          </form>
+
+          <aside class="contact-info">
+            <div class="info-card">
+              <h4>Availability</h4>
+              <p>Next slot opening in</p>
+              <div id="countdown" class="countdown">
+                <div><span id="cd-days">--</span><small>Days</small></div>
+                <div><span id="cd-hours">--</span><small>Hours</small></div>
+                <div><span id="cd-mins">--</span><small>Minutes</small></div>
+                <div><span id="cd-secs">--</span><small>Seconds</small></div>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <h4>Contact</h4>
+              <p>Email: <strong>hello@artboard.example</strong></p>
+              <p>Phone/WhatsApp: <strong>+91 98x-xxx-xxxx</strong></p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>© <span id="year"></span> Arajit — ArtBoard Studio</div>
+        <div class="socials">Behance · Dribbble · Instagram</div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
